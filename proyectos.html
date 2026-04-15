@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos - Red de Tutorías Solidarias</title>
+</head>
+<body>
+    
+<header>
+    <h1>Red de Tutorías Solidarias</h1>
+    <p>Explora los proyectos educativos y tutorías disponibles.</p>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="proyectos.html">Explorar Tutorías</a></li>
+            <li><a href="perfil.html">Mi Perfil</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="explorador-proyectos">
+        <aside class="filtros">
+            <h2>Filtrar proyectos</h2>
+            <form>
+                <label for="categoria">Categoría:</label>
+                <select id="categoria" name="categoria">
+                    <option value="todos">Todos</option>
+                    <option value="matematicas">Matemáticas</option>
+                    <option value="ciencias">Ciencias</option>
+                    <option value="idiomas">Idiomas</option>
+                </select>
+
+                <label for="anio">Año:</label>
+                <select id="anio" name="anio">
+                    <option value="todos">Todos</option>
+                    <option value="2024">2024</option>
+                    <option value="2025">2025</option>
+                    <option value="2026">2026</option>
+                </select>
+
+                <label for="estado">Estado:</label>
+                <select id="estado" name="estado">
+                    <option value="todos">Todos</option>
+                    <option value="en-curso">En curso</option>
+                    <option value="finalizado">Finalizado</option>
+                </select>
+            </form>
+        </aside>
+
+        <section class="listado-proyectos">
+            <h2>Proyectos disponibles</h2>
+
+            <article class="proyecto">
+                <img src="img/proyecto1.jpg" alt="Tutoría de matemáticas" />
+                <div>
+                    <h3>Matemáticas para la secundaria</h3>
+                    <p>Clases de apoyo en álgebra y geometría para estudiantes de secundaria.</p>
+                    <p><strong>Categoría:</strong> Matemáticas</p>
+                    <p><strong>Estado:</strong> En curso</p>
+                    <a href="detalle.html">Ver detalle</a>
+                </div>
+            </article>
+
+            <article class="proyecto">
+                <img src="img/proyecto2.jpg" alt="Proyecto de robótica" />
+                <div>
+                    <h3>Robótica educativa</h3>
+                    <p>Proyecto práctico para aprender electrónica con robots y sensores.</p>
+                    <p><strong>Categoría:</strong> Ciencias</p>
+                    <p><strong>Estado:</strong> Finalizado</p>
+                    <a href="detalle.html">Ver detalle</a>
+                </div>
+            </article>
+
+            <article class="proyecto">
+                <img src="img/proyecto3.jpg" alt="Tutoría de inglés" />
+                <div>
+                    <h3>Inglés conversacional</h3>
+                    <p>Práctica de conversación para mejorar la fluidez en inglés.</p>
+                    <p><strong>Categoría:</strong> Idiomas</p>
+                    <p><strong>Estado:</strong> En curso</p>
+                    <a href="detalle.html">Ver detalle</a>
+                </div>
+            </article>
+
+            <article class="proyecto">
+                <img src="img/proyecto4.jpg" alt="Proyecto de programación" />
+                <div>
+                    <h3>Programación web básica</h3>
+                    <p>Introducción a HTML, CSS y JavaScript para jóvenes aprendices.</p>
+                    <p><strong>Categoría:</strong> Ciencias</p>
+                    <p><strong>Estado:</strong> En curso</p>
+                    <a href="detalle.html">Ver detalle</a>
+                </div>
+            </article>
+
+            <article class="proyecto">
+                <img src="img/proyecto5.jpg" alt="Proyecto de lectura" />
+                <div>
+                    <h3>Club de lectura</h3>
+                    <p>Sesiones para fomentar la comprensión lectora y el pensamiento crítico.</p>
+                    <p><strong>Categoría:</strong> Idiomas</p>
+                    <p><strong>Estado:</strong> Finalizado</p>
+                    <a href="detalle.html">Ver detalle</a>
+                </div>
+            </article>
+        </section>
+    </section>
+</main>
+
+</body>
+</html>
