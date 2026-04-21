@@ -3,11 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Dashboard - Red de Tutorías Solidarias</title>
+
+    <!-- CSS EXTERNO -->
+    <link rel="stylesheet" href="CSS/indexstyle.css">
+
+    <!-- CSS INTERNO -->
+    <style>
+        h2 {
+            color: #2c3e50;
+        }
+    </style>
 </head>
+
 <body>
 
 <header>
-    <h1>Red de Tutorías Solidarias</h1>
+    <!-- INLINE -->
+    <h1 style="text-align:center;">Red de Tutorías Solidarias</h1>
+
     <p>Bienvenido al sistema de gestión, donde los estudiantes se ayudan entre sí.</p>
 
     <nav>
@@ -20,41 +33,45 @@
 </header>
 
 <main>
-   
-    
-    <section>
-    <h2>📊 Estadísticas de la Red</h2>
 
-    <article>
-        <h3>Tutorías Activas</h3>
-        <p>Actualmente hay 15 tutorías activas.</p>
-    </article>
+    <!-- ESTADÍSTICAS -->
+    <section class="estadisticas">
+        <h2>📊 Estadísticas de la Red</h2>
 
-    <article>
-        <h3>Tareas para Hoy</h3>
-        <p>Hay 4 sesiones programadas para hoy.</p>
-    </article>
+        <article class="card">
+            <h3>Tutorías Activas</h3>
+            <p>Actualmente hay 15 tutorías activas.</p>
+        </article>
 
-    <article>
-        <h3>Mensajes Pendientes</h3>
-        <p>Existen 7 consultas sin responder.</p>
-    </article>
-</section>
+        <article class="card">
+            <h3>Tareas para Hoy</h3>
+            <p>Hay 4 sesiones programadas para hoy.</p>
+        </article>
+
+        <article class="card">
+            <h3>Mensajes Pendientes</h3>
+            <p>Existen 7 consultas sin responder.</p>
+        </article>
+    </section>
 
     <hr>
 
-    <section>
+    <!-- ACCIONES -->
+    <section class="acciones">
         <h2>🆕 Últimas Acciones</h2>
+
         <ul>
             <li><strong>Carlos Gómez</strong> subió una nueva guía.</li>
             <li>Se creó el proyecto de <strong>Inglés Técnico</strong>.</li>
             <li><strong>Marta Díaz</strong> actualizó horarios.</li>
+            <li><strong>Admin</strong> aprobó nuevas solicitudes de tutores.</li>
         </ul>
     </section>
+
 </main>
 
 <footer>
-    <p>Analista Programador Universitario - Grupo 8</p>
+    <p>Analista Programador Universitario - Programación Visual - Grupo 8</p>
 </footer>
 
 </body>
