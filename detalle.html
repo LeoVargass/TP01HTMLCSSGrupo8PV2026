@@ -2,21 +2,32 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./CSS/detalle.css" rel="stylesheet">
+    <style> 
+        footer {
+            background-color: #0b243f;
+            color: #fff;
+            text-align: center;
+        }
+    </style>
     <title>Detalle de Proyecto - Red de Tutorías Solidarias</title>
 </head>
 <body>
 
-<header>
-    <h1>Red de Tutorías Solidarias</h1>
-    <p>Detalle de proyectos educativos y tutorías disponibles.</p>
-    <nav>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="proyectos.html">Explorar Tutorías</a></li>
-            <li><a href="perfil.html">Mi Perfil</a></li>
-        </ul>
-    </nav>
-</header>
+<section id="banner">
+    <header>
+        <h1 style="color:#ffffff; font-size: 80px;">Red de Tutorías Solidarias</h1>
+        <p>Detalle de proyectos educativos y tutorías disponibles.</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="proyectos.html">Explorar Tutorías</a></li>
+                <li><a href="perfil.html">Mi Perfil</a></li>
+            </ul>
+        </nav>
+    </header>
+</section>    
 
 <main>
 
@@ -45,7 +56,8 @@
             </p>
         </article>
 
-        <section>
+        <div class="contenedor-cajas">
+        <section id="Recursos">
             <h3>Recursos Disponibles</h3>
             <ul>
                 <li><a href="docs/Career_Paths_IT1.pdf" target="_blank">Libro: Information Technology Careers(PDF)</a></li>
@@ -54,7 +66,7 @@
             </ul>
         </section>
 
-        <section>
+        <section id="Equipo">
             <h3>Equipo del Proyecto</h3>
             <ul>
                 <li><strong>Carla Fernández:</strong> Tutora principal (Inglés Técnico)</li>
@@ -62,10 +74,10 @@
                 <li><strong>Rodrigo Sosa:</strong> Apoyo en ejercicios prácticos</li>
             </ul>
         </section>
-
-        <hr>
+        </div>
     </section>
 
+    <hr>
 
     <section id="proyecto2">
         <header>
@@ -92,7 +104,8 @@
             </p>
         </article>
 
-        <section>
+        <div class="contenedor-cajas">
+        <section id="Recursos">
             <h3>Recursos Disponibles</h3>
             <ul>
                 <li><a href="https://www.codeblocks.org/" target="_blank">CodeBlocks</a></li>
@@ -101,7 +114,7 @@
             </ul>
         </section>
 
-        <section>
+        <section id="Equipo">
             <h3>Equipo del Proyecto</h3>
             <ul>
                 <li><strong>Tomás Vargas:</strong> Tutor principal (Programación en C)</li>
@@ -109,10 +122,10 @@
                 <li><strong>Juan Rojas:</strong> Apoyo en consultas y seguimiento</li>
             </ul>
         </section>
-
-        <hr>
+        </div>
     </section>
 
+    <hr>
 
     <section id="proyecto3">
         <header>
@@ -139,7 +152,8 @@
             </p>
         </article>
 
-        <section>
+        <div class="contenedor-cajas">
+        <section id="Recursos">
             <h3>Recursos Disponibles</h3>
             <ul>
                 <li><a href="https://www.youtube.com/@eltraductor_ok" target="_blank">Traductor de Ingenieria</a></li>
@@ -148,7 +162,7 @@
             </ul>
         </section>
 
-        <section>
+        <section id="Equipo">
             <h3>Equipo del Proyecto</h3>
             <ul>
                 <li><strong>Valentina Ruiz:</strong> Tutora principal (Análisis Matemático)</li>
@@ -156,7 +170,7 @@
                 <li><strong>Lucía Castro:</strong> Organización de encuentros y materiales</li>
             </ul>
         </section>
-
+        </div>
     </section>
 
     <hr>
@@ -185,7 +199,8 @@
             </p>
         </article>
 
-        <section>
+        <div class="contenedor-cajas">
+        <section id="Recursos">
             <h3>Recursos Disponibles</h3>
             <ul>
                 <li><a href="https://es.wikipedia.org/wiki/SQL" target="_blank">Wikipedia - SQL</a></li>
@@ -194,7 +209,7 @@
             </ul>
         </section>
 
-        <section>
+        <section id="Equipo">
             <h3>Equipo del Proyecto</h3>
             <ul>
                 <li><strong>Nahuel López:</strong> Tutor principal (Consultas SQL)</li>
@@ -202,10 +217,10 @@
                 <li><strong>Diego Cardozo:</strong> Prácticas y ejercicios guiados</li>
             </ul>
         </section>
-
-        <hr>
+        </div>
     </section>
 
+    <hr>
 
     <section id="proyecto5">
         <header>
@@ -232,7 +247,8 @@
             </p>
         </article>
 
-        <section>
+        <div class="contenedor-cajas">
+        <section id="Recursos">
             <h3>Recursos Disponibles</h3>
             <ul>
                 <li><a href="https://es.wikipedia.org/wiki/Red_inform%C3%A1tica" target="_blank">Wikipedia - Redes Informáticas</a></li>
@@ -241,7 +257,7 @@
             </ul>
         </section>
 
-        <section>
+        <section id="Equipo">
             <h3>Equipo del Proyecto</h3>
             <ul>
                 <li><strong>Agustín Romero:</strong> Tutor principal (Redes y direccionamiento)</li>
@@ -249,13 +265,16 @@
                 <li><strong>Sebastián Aramayo:</strong> Ejercicios de práctica y resolución de consultas</li>
             </ul>
         </section>
-
+        </div>
     </section>
+
+    <hr>
 
 </main>
 
 <footer>
     <p>Analista Programador Universitario - Grupo 8</p>
+    <button>UNJU VIRTUAL</button>
 </footer>
 
 </body>
