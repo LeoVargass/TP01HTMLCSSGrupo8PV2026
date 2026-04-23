@@ -5,12 +5,20 @@
     --color-texto: #333;
 }
 
+/* RESET BÁSICO */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 /* GENERAL */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     background-color: var(--color-fondo);
     color: var(--color-texto);
+    line-height: 1.5;
 }
 
 /* HEADER */
@@ -27,6 +35,8 @@ nav ul {
     justify-content: center;
     gap: 20px;
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 /* LINKS */
@@ -41,30 +51,31 @@ a:hover {
 
 a:focus {
     outline: 2px solid red;
+    outline-offset: 2px;
 }
 
 a:active {
     color: orange;
 }
 
-/* GRID */
+/* GRID PRINCIPAL */
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     padding: 20px;
 }
 
-/* CARDS */
+/* TARJETAS */
 .card {
     background: white;
     padding: 15px;
     border-radius: 10px;
+    transition: transform 0.3s ease;
 }
 
 .card:hover {
     transform: scale(1.03);
-    transition: 0.3s;
 }
 
 /* FOOTER */
